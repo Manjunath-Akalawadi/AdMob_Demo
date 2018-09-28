@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         String android_id = Settings.Secure.getString(getBaseContext().getContentResolver(),
                 Settings.Secure.ANDROID_ID);
 
-        MobileAds.initialize(this , "ca-app-pub-6817573369431351~4160025801");
+        MobileAds.initialize(this , "AdMob Key");
 
         adView = (AdView) findViewById(R.id.bAd);
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         interstitialAd = new InterstitialAd(this);
-        interstitialAd.setAdUnitId("ca-app-pub-6817573369431351/8862893427");
+        interstitialAd.setAdUnitId("AdMob Key");
         interstitialAd.loadAd(new AdRequest.Builder().addTestDevice(android_id).build());
         interstitialAd.setAdListener(new AdListener() {
 
