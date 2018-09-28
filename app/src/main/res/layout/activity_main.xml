@@ -16,7 +16,7 @@
         android:layout_alignParentBottom="true"
         android:id="@+id/bAd"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-6817573369431351/9296802417"
+        ads:adUnitId="adMob Key"
         >
 
     </com.google.android.gms.ads.AdView>
